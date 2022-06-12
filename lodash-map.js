@@ -12,4 +12,3 @@ lodash.map(data, (item) => {
 });
 
 console.timeEnd('lodash-map');
-
