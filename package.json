@@ -1,18 +1,11 @@
 {
   "name": "lodash_vs_js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "Performance comparison of JavaScript and Lodash",
+  "author": "Yura Abharian",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "4.17.21"
   },
-  "type": "module",
-  "devDependencies": {
-    "@faker-js/faker": "^7.2.0"
-  }
+  "type": "module"
 }

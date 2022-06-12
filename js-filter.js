@@ -1,6 +1,6 @@
 import { data } from './test-data.js';
 
-console.time('js-map');
+console.time('js-filter');
 
 data.map((item) => {
     if (item.isMarried) {
@@ -10,5 +10,5 @@ data.map((item) => {
     return item;
 });
 
-console.timeEnd('js-map');
+console.timeEnd('js-filter');
 

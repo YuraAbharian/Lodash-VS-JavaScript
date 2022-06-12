@@ -1,7 +1,7 @@
 import { data } from './test-data.js';
 import lodash from 'lodash'; 
 
-console.time('lodash-map');
+console.time('lodash-filter');
 
 lodash.map(data, (item) => {
     if (item.isMarried) {
@@ -11,7 +11,4 @@ lodash.map(data, (item) => {
     return item;
 });
 
-console.timeEnd('lodash-map');
-
-
-// _.uniq([2, 1, 2]);
+console.timeEnd('lodash-filter');

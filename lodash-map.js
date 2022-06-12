@@ -1,4 +1,4 @@
-import { data } from './test.js';
+import { data } from './test-data.js';
 import lodash from 'lodash'; 
 
 console.time('lodash-map');

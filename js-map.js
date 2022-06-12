@@ -1,4 +1,4 @@
-import { data } from './test.js';
+import { data } from './test-data.js';
 
 console.time('js-map');
 
