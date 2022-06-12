@@ -1,5 +1,6 @@
-import { randomArray } from './test-data.js';
 import lodash from 'lodash'; 
+
+import { randomArray } from './test-data.js';
 
 console.time('lodash-sort');
 

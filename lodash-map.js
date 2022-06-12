@@ -1,5 +1,6 @@
-import { data } from './test-data.js';
 import lodash from 'lodash'; 
+
+import { data } from './test-data.js';
 
 console.time('lodash-map');
 

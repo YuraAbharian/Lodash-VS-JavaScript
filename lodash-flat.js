@@ -1,5 +1,6 @@
-import { nonFlattnedArray } from './test-data.js';
 import lodash from 'lodash'; 
+
+import { nonFlattnedArray } from './test-data.js';
 
 console.time('lodash-flat');
 
